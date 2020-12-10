@@ -1,6 +1,6 @@
 class App
   def foo: (Integer) -> String
   def boo: (Proc) -> String
-  def baz: (Proc) -> String
+  def baz: (^(Integer) -> String) -> String
   def bar: { (Integer) -> String } -> String
 end

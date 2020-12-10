@@ -17,7 +17,7 @@ class App
 end
 
 proc1 = proc { "ブロック" }
-proc2 = Proc.new { |n| n.to_s }
+proc2 = proc { |n| n.to_s }
 
 app = App.new
 
